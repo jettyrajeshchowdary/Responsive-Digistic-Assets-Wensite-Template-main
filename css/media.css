@@ -1,0 +1,1772 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1200px
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (max-width: 1600px) {
+    body {
+        font-size: 18px;
+    }
+
+    header {
+        padding: 75px 0px;
+        min-height: 200px;
+    }
+
+    .banner-section {
+        padding-top: 200px;
+        height: 100%;
+    }
+
+    .banner-section h1 {
+        line-height: 70px;
+    }
+
+    .auction-section .auction-carousel .owl-nav {
+        top: 300px;
+    }
+}
+
+@media (max-width: 1490px) {
+
+    .mobile-menu-open .nav-menu-wrapper {
+        font-size: 15px;
+    }
+
+    .mobile-menu-open .nav-img {
+        top: 95px;
+    }
+
+    .banner-section h1 {
+        font-size: 2.25em;
+        line-height: 60px;
+    }
+
+    .join-community h2 span {
+        display: none;
+    }
+
+    .join-community-buttons {
+        padding-left: 220px;
+        margin-top: 85px;
+    }
+
+    .investors-partners {
+        padding-top: 100px;
+    }
+
+    .roadmap {
+        padding-top: 0;
+    }
+
+
+    .auction-section {
+        padding-bottom: 0;
+    }
+
+    .auction-section .btn-container {
+        margin-bottom: 130px;
+    }
+
+    .auction-section .auction-carousel .owl-nav {
+        top: 270px;
+    }
+
+    .team-section {
+        margin-top: 100px;
+    }
+
+    .team-member-list {
+        margin-top: 50px;
+    }
+
+    .faq-section {
+        padding-top: 100px;
+    }
+
+    .awesome-creator {
+        width: 300px;
+    }
+
+    .auction-item .auction-card-body img {
+        width: 325px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .auction-section .auction-carousel .owl-nav {
+        top: 270px;
+        left: -390px;
+    }
+
+    .auction-section .auction-cards {
+        margin-left: 455px;
+        width: calc(100vw - 455px);
+    }
+
+    .auction-title {
+        padding-left: 45px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    body {
+        font-size: 16px
+    }
+
+    .section-title {
+        line-height: 55px;
+    }
+
+    .btn-sm {
+        font-size: .5em
+    }
+
+    .banner-section .btn-container {
+        gap: 25px;
+    }
+
+    .banner-content {
+        padding-left: calc((100vw - 930px) / 2);
+    }
+
+    .banner-section h1 {
+        line-height: 55px;
+        margin-bottom: 25px;
+    }
+
+    .adding-creators {
+        margin-top: 40px;
+    }
+
+
+    /* Investor section starts */
+    .investors-partners {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .investors-grid.owl-carousel {
+        margin-top: 50px;
+    }
+
+    /* Investor section ends */
+    /* why digistick section starts */
+
+
+    .why-digistic .feature-img .main-img img {
+        max-width: 400px;
+    }
+
+    .why-digistic .feature-content i {
+        top: 9px;
+    }
+
+    .why-digistic .feature-content li {
+        padding-left: 32px;
+    }
+
+
+    .why-digistic .why-list {
+        padding-left: 60px;
+    }
+
+    /* why digistick section ends */
+
+    /* join community section starts */
+    .join-community {
+        padding: 60px 40px;
+
+    }
+
+    .join-community-cont h2 {
+        font-size: 2.0em;
+        line-height: 45px;
+    }
+
+    .join-community-cont p {
+        line-height: 23px;
+
+    }
+
+    .join-community-cont .adding-creators {
+        margin-top: 25px;
+    }
+
+    .join-community-buttons {
+        padding-left: 130px;
+        margin-top: 40px;
+
+    }
+
+    .join-community-img img {
+        max-width: 320px;
+    }
+
+    /* join community section ends */
+
+    /* roadmap section starts */
+
+
+
+
+    .roadmap-list>li .roadmap-images {
+        max-width: 320px;
+    }
+
+    /* roadmap section ends */
+
+    /* auction section starts */
+
+    .auction-card-caption .btn-sm {
+        font-size: 1em;
+    }
+
+    .auction-section .btn-container {
+        margin-bottom: 120px;
+        flex-direction: row;
+        padding-left: 410px;
+    }
+
+    .auction-section .auction-carousel .owl-nav {
+        left: -400px;
+    }
+
+    .auction-carousel.owl-carousel.owl-drag .owl-item {
+        width: 350px !important;
+    }
+
+    /* auction section ends */
+
+
+
+    /*creator section starts*/
+    .awesome-creators {
+        padding-top: 50px;
+    }
+
+
+    /*creator section ends*/
+    .creators-grid {
+        padding-left: calc((100vw - 930px) / 2);
+    }
+
+    /*team section starts*/
+    /*faq section starts*/
+
+    .faq-navbar {
+        margin-top: 50px;
+    }
+
+    .faq-content {
+        margin-top: 50px;
+    }
+
+    /*faq section ends*/
+
+    .page-banner {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    /*about*/
+    .pad-top {
+        margin-top: 150px;
+    }
+
+    .about-why.why-list {
+        padding-left: 20px;
+    }
+
+    .about-nft .banner-carousel .owl-nav {
+        right: -10px;
+        top: 100px;
+    }
+
+    /*blog-section*/
+    .blogs .blog-img img {
+        border-radius: 20px;
+        width: -webkit-fill-available;
+    }
+
+
+
+    .right-sec {
+        border-radius: 20px;
+    }
+
+    .page-banner {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+
+    .blog-section {
+        margin-top: 100px;
+    }
+
+    .post-list {
+        gap: 10px;
+    }
+
+    .post-list .post-img img {
+        width: 100%;
+
+    }
+
+
+
+    .post-content .commentor-name {
+        font-size: 0.7em;
+        line-height: 20px;
+    }
+
+    .post-comments {
+        padding-bottom: 0;
+    }
+
+    /*contact-section*/
+    .contact-section {
+        padding: 50px 0px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    body {
+        font-size: 19px
+    }
+
+    header {
+        min-height: 90px
+    }
+
+    .mobile-menu-open .nav-links li a {
+        font-size: 8vw;
+    }
+
+    .mobile-menu-open .nav-img {
+        transform: none;
+        text-align: center;
+        padding: 30px 0;
+        position: static;
+    }
+
+    .mobile-menu-open .nav-img img {
+        height: 42vh;
+    }
+
+    .mobile-menu-open .nav-links {
+        text-align: center;
+    }
+
+    .mobile-menu-open .nav-links li {
+        border-bottom: none;
+    }
+
+    .mobile-menu-open .nav-links li a {
+        border-bottom: 1px solid #c5c5c5;
+        display: inline-block;
+
+    }
+
+    .section-subtitle br {
+        display: none;
+    }
+
+    .blog-section .section-subtitle br {
+        display: block;
+    }
+
+    /* Banner Section  */
+
+    .banner-content {
+        width: 100%;
+        position: static;
+        padding: 0 20px;
+    }
+
+    .banner-carousel-wrapper {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 30px;
+    }
+
+    .banner-section h1 {
+        font-size: 2.5em;
+        margin-bottom: 15px;
+        text-align: center;
+        line-height: 60px;
+    }
+
+    .banner-section p {
+        text-align: center;
+    }
+
+    .banner-section .btn-container {
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .adding-creators {
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    /* Investor section starts */
+    .investors-partners {
+        padding-top: 100px;
+    }
+
+    /* Investor section ends */
+    /* why digistick section starts */
+
+    .why-digistic p {
+        margin-bottom: 25px;
+    }
+
+    .why-digistic .feature-content {
+        padding-bottom: 30px;
+    }
+
+    .why-digistic .feature-content i {
+        top: 8px;
+    }
+
+    .why-digistic .feature-content li {
+        margin-bottom: 15px;
+        font-size: 1em;
+    }
+
+    .why-digistic .feature-img {
+        margin: 0 auto;
+        margin-top: 100px;
+        max-width: 400px;
+    }
+
+    .why-digistic .why-list .why-card {
+        margin: 0
+    }
+
+
+    .why-digistic .feature-img .main-img {
+        left: 50%;
+        text-align: center;
+    }
+
+    .why-digistic .why-list {
+        padding-left: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* why digistick section ends */
+
+    /* join community section starts */
+    #join-community {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .join-community {
+        padding: 50px 20px 345px;
+    }
+
+    .join-community-cont {
+        padding: 0px 100px;
+
+    }
+
+    .join-community-cont h2 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .join-community-cont p {
+        text-align: center;
+        margin: 0;
+    }
+
+    .join-community-buttons {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .join-community-buttons .btn-container {
+        flex-direction: row;
+    }
+
+    .join-community-cont .adding-creators {
+        margin-bottom: 20px;
+    }
+
+    /* join community section ends */
+
+    /* roadmap section starts */
+    .roadmap-list>li {
+        flex-wrap: wrap;
+    }
+
+    .roadmap-number {
+        width: 10%;
+    }
+
+    .roadmap-content {
+        width: 45%;
+    }
+
+
+    .roadmap-list>li .roadmap-images {
+        opacity: 1;
+        display: none;
+        visibility: visible;
+        right: 0;
+        position: static;
+        max-width: 32%;
+        gap: 20px;
+    }
+
+    .roadmap-list>li:before {
+        content: '';
+        position: absolute;
+        right: 12px;
+        cursor: pointer;
+        background-color: #5f6465;
+        height: 15px;
+        width: 1px;
+        top: 43px;
+    }
+
+    .roadmap-list>li:after {
+        content: '';
+        position: absolute;
+        background-color: #5f6465;
+        height: 1px;
+        width: 15px;
+        top: 50px;
+        right: 5px;
+    }
+
+    .roadmap-list>li.open:before {
+        display: none;
+    }
+
+    .roadmap-list>li .roadmap-images img+img {
+        margin-top: 0;
+        width: calc(45% - 20px);
+    }
+
+
+
+    /* roadmap section ends */
+
+    /* auction section starts */
+    .auction-section {}
+
+    .auction-title {
+        padding-left: 0;
+        margin-bottom: 50px;
+        position: inherit;
+        padding: 0 40px
+    }
+
+    .auction-title>* {
+        max-width: 100%;
+    }
+
+    .auction-section .auction-cards {
+        margin: 0;
+        width: 100%;
+    }
+
+    .auction-item .auction-card-body img {
+        width: 100%;
+    }
+
+    .auction-cards {
+        padding-left: 40px;
+    }
+
+    .auction-section .btn-container {
+        padding-left: 0px;
+
+    }
+
+    .auction-section .btn-container {
+        margin-bottom: 100px;
+    }
+
+    .auction-card-footer-left {
+        padding-right: 0px;
+    }
+
+    .auction-card-footer-left .auction-card-author-amount {
+        display: inline-block;
+    }
+
+    .auction-card-footer-left .auction-card-author-amount .auction-card-artist-img {
+        margin-right: 0;
+    }
+
+    .auction-card-footer-left .auction-card-artist-name {
+        /* font-size: 15px; */
+        display: inline-block;
+        padding-left: 5px;
+    }
+
+    .auction-card-footer-left .auction-card-amount {
+        /* font-size: 15px; */
+        display: block;
+        padding-left: 55px;
+    }
+
+    .auction-card-footer-left .auction-card-title {
+        margin-bottom: 3px;
+
+    }
+
+    .auction-card-footer-right {
+        padding-left: 15px;
+    }
+
+    /* auction section ends */
+
+    /*creator section starts*/
+    .awesome-creators {
+        margin-top: 25px;
+    }
+
+    .awesome-creators .btn-container {
+        justify-content: start;
+        margin-top: 50px;
+    }
+
+    .creators-top {
+        margin-bottom: 50px;
+    }
+
+    .creators-grid {
+        padding-left: calc((100vw - 690px) / 2);
+    }
+
+    /*creator section ends*/
+
+
+    /*team section starts*/
+    .team-section {
+        margin-top: 50px;
+    }
+
+    .team-member {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        gap: 0;
+
+    }
+
+    .team-member h5 {
+        text-align: left;
+    }
+
+    .team-member-list {
+        margin-top: 0;
+    }
+
+    .team-member h5 {
+        width: 100%;
+    }
+
+    .team-member-content {
+        width: 60%;
+        padding-right: 20px;
+    }
+
+    .team-member-img {
+        width: 35%;
+    }
+
+    .team-member-img img {
+        width: 100%;
+    }
+
+    .faq-tab-content {
+        padding-top: 30px;
+    }
+
+    .team-accordian-icon {
+        right: 0;
+        top: 6px;
+    }
+
+    .faq-tab-links {
+        margin-top: 50px;
+        padding: 0 50px;
+    }
+
+    .faq-list {
+        margin-top: 30px;
+    }
+
+    .faq-section .section-title {
+        margin-bottom: 15px;
+    }
+
+    .faq-list>li+li {
+        margin-top: 30px;
+    }
+
+    /*email update section starts*/
+    .input-container {
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+
+    /*email update section ends*/
+
+
+
+    /*footer section starts*/
+    .footer-bottom .footer-social {
+        text-align: center;
+        margin: 0;
+        margin-top: 35px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer-bottom .brand-logo {
+        display: none;
+    }
+
+    .footer-bottom .footer-info {
+        display: none;
+
+    }
+
+    .footer-bottom .copyright-para {
+        margin-top: 15px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .footer-cont>div {
+        flex-direction: column-reverse;
+    }
+
+    .footer-cont {
+        padding-top: 70px;
+    }
+
+    /*footer section ends*/
+
+
+    /*about section*/
+    .page-banner {
+        margin-top: 120px;
+    }
+
+    .about-nft {
+        margin-top: 100px;
+    }
+
+    .about-nft .banner-carousel-wrapper {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+
+    .about-nft .banner-carousel .owl-nav {
+        right: 30px
+    }
+
+    .about-why {
+        margin-bottom: 50px;
+    }
+
+    .about-features {
+        margin-top: 50px;
+    }
+
+    .about-why .why-card h3 {
+        font-size: 45px;
+    }
+
+    .about-why .why-card p {
+        margin-right: 45px;
+    }
+
+    .about-team-section .team-member-img {
+        width: 100%;
+    }
+
+    .about-team-section .team-member-list {
+        margin-top: 30px;
+    }
+
+    .about-faq-section .faq-images {
+        top: 0
+    }
+
+    .about-faq-section {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .about-faq-section .faq-cont {
+        text-align: center;
+    }
+
+    /*blog-section*/
+    .blog-heading h2 {
+        line-height: 60px;
+    }
+
+    .post-list {
+        gap: 30px;
+        align-items: center;
+        font-size: 1.2em;
+    }
+
+    .dropdown-menu.show {
+        top: 105%;
+        left: 50%;
+        position: relative !important;
+        margin-top: 12px !important;
+        transform: none !important;
+    }
+
+    .dropdown-item {
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    /*contact section*/
+
+
+    .contact-info-list {
+        margin-top: 120px;
+    }
+
+    .contact-info-list>div:last-child {
+        margin-bottom: 0;
+    }
+
+    /*privacy policy*/
+    .privacy-section button.btn {
+        min-height: 45px;
+        font-size: 0.8em;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 18px
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
+    .desktop-hide {
+        display: block;
+    }
+
+    .container {
+        padding-left: 24px;
+        padding-right: 24px
+    }
+
+    .section-title {
+        text-align: left;
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .section-subtitle {
+        text-align: left;
+        line-height: 25px;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px
+    }
+
+    .btn {
+        min-height: 70px;
+        font-size: 1.4em;
+        font-weight: 500;
+        max-width: 290px;
+    }
+
+    .btn-sm {
+        min-height: 48px;
+        max-width: 81px;
+        font-size: .8em
+    }
+
+    header {
+        min-height: 75px;
+        padding-top: 25px;
+
+    }
+
+    .mobile-menu-open .nav-menu-wrapper {
+
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .mobile-menu-open .nav {
+        justify-content: center;
+    }
+
+    .mobile-menu-open .nav-img img {
+        height: 32vh;
+    }
+
+    .mobile-menu-open .nav-links {
+        margin-top: 100px;
+    }
+
+    .mobile-menu-open .nav-links li a {
+        border-bottom: 1px solid #7c7e83;
+        text-align: center;
+
+    }
+
+    .mobile-menu-open .nav-links li {
+        border: none;
+    }
+
+    /* Banner Section  */
+    .pad-top {
+        margin-top: 120px;
+    }
+
+    .banner-carousel-wrapper {
+        margin-top: 20px;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .banner-content {
+        padding-left: 20px;
+    }
+
+
+    .banner-carousel .first-img img {
+        border-radius: 29px 29px 29px 90px;
+    }
+
+    .banner-carousel .second-img img,
+    .banner-carousel div:nth-child(even) img {
+        border-radius: 29px 29px 90px 29px;
+    }
+
+    .banner-section {
+        padding-top: 140px;
+        padding-bottom: 60%;
+        margin-bottom: 60%;
+    }
+
+    .banner-section h1 {
+        text-align: center;
+        line-height: 55px;
+        margin-bottom: 0;
+    }
+
+    .banner-section .btn-container {
+        flex-direction: column;
+    }
+
+    .banner-section p {
+        margin-bottom: 30px;
+        text-align: center;
+        line-height: 32px;
+        margin-top: 15px;
+    }
+
+    .adding-creators {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 20px;
+        margin-bottom: 15px;
+    }
+
+    .adding-creators-aside h6 {
+        text-align: center;
+    }
+
+    /* Investor section starts */
+
+    .investors-partners {
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+
+    .investors-partners h2 {
+        margin-bottom: 10px;
+    }
+
+    .investors-grid.owl-carousel {
+        margin-top: 30px;
+    }
+
+    .investors-grid.owl-carousel:after {
+        display: none;
+    }
+
+    /* Investor section ends */
+    /* why digistick section starts */
+    .why-digistic {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .why-digistic h2 {
+        margin-bottom: 8px;
+    }
+
+    .why-digistic p {
+        margin-bottom: 20px;
+    }
+
+    .why-digistic .why-list {
+        padding-left: 0px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    .why-digistic .feature-content li {
+        padding-left: 26px;
+    }
+
+    .why-digistic .feature-content i {
+        top: 7px;
+    }
+
+    .why-digistic .why-list li {
+        width: calc(50% - 7px);
+    }
+
+    .why-digistic .feature-img .main-img {
+        margin-top: 35px;
+        top: 0;
+        width: 100%;
+    }
+
+    .why-digistic .feature-img .main-img img {
+        max-width: 330px;
+        /* margin-left: -115px; */
+    }
+
+    .why-digistic .feature-img .vector-imgs img {
+        max-height: 500px;
+    }
+
+    .why-digistic .feature-img .vector-imgs img.line-1 {
+        top: 50px;
+        left: 20px;
+        margin-top: -30px
+    }
+
+    .why-digistic .feature-img .vector-imgs img.line-2 {
+
+        top: 70px;
+        left: 155px;
+    }
+
+    .why-digistic .feature-img .vector-imgs img.line-3 {
+        top: 30px;
+        right: 40px;
+        margin-top: -50px
+    }
+
+    .why-digistic button {
+        margin: 0 auto;
+    }
+
+    /* why digistick section ends */
+
+    /* join community section starts */
+    .join-community {
+        padding: 35px 20px 270px;
+    }
+
+    .join-community h2 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .join-community-cont p {
+        line-height: 1.2;
+    }
+
+    .join-community-img img {
+        max-width: 245px;
+    }
+
+    .join-community-cont .adding-creators {
+        margin-top: 25px;
+    }
+
+    .join-community-cont {
+        padding: 0px;
+        text-align: center !important;
+
+    }
+
+    .join-community-buttons {
+        margin-top: 25px;
+        padding: 0 20px;
+    }
+
+    .join-community-buttons .btn-container {
+        flex-direction: column;
+    }
+
+    /* join community section ends */
+
+    /* roadmap section starts */
+
+    .roadmap {
+        padding-top: 35px;
+    }
+
+    .roadmap-list {
+        padding-top: 32px;
+    }
+
+    .roadmap-list>li {
+        display: block;
+        padding: 0;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    .roadmap-content {
+        position: relative;
+        width: 100%;
+    }
+
+    .roadmap-number {
+        line-height: normal;
+        font-size: 1.5em;
+    }
+
+    .roadmap-content h3 {
+        padding: 15px 0px 10px;
+        font-size: 1.2em;
+        line-height: normal;
+        margin: 0;
+    }
+
+    .roadmap-list>li .roadmap-images {
+        display: none;
+        position: static;
+        padding-top: 10px;
+        max-width: 85%;
+        gap: 14px;
+        margin-bottom: 30px;
+        margin-left: 15%;
+    }
+
+    .roadmap-list>li .roadmap-images img:first-child {
+        margin-top: 20px;
+    }
+
+    .roadmap-list>li:before {
+        top: 8px;
+    }
+
+    .roadmap-list>li:after {
+        top: 15px;
+    }
+
+    .roadmap .btn-container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+
+
+    /* roadmap section ends */
+
+    /* auction section starts */
+    .auction-section {
+        position: relative;
+        padding-top: 0;
+
+    }
+
+    .auction-section .btn-container {
+        margin-bottom: 50px;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .auction-title {
+        padding-left: 20px;
+        margin-bottom: 0;
+    }
+
+    .auction-section h2 {
+        margin-bottom: 8px;
+    }
+
+    .auction-section p {
+        padding-bottom: 30px;
+    }
+
+    .auction-cards {
+        padding-left: 24px;
+    }
+
+    .auction-card-footer-left .auction-card-author-amount .auction-card-artist-img img {
+        width: 30px;
+    }
+
+    .auction-card-footer-left .auction-card-author-amount {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        align-items: center;
+    }
+
+    .auction-card-footer-left .auction-card-author-amount .auction-card-artist-img {
+        grid-area: 1 / 1 / 3 / 2;
+        width: 55px;
+    }
+
+    .auction-card-footer-left .auction-card-artist-name {
+        grid-area: 1 / 2 / 2 / 3;
+        margin: 0;
+        padding: 0;
+    }
+
+    .auction-card-footer-left .auction-card-amount {
+        grid-area: 2 / 2 / 3 / 3;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .auction-card-footer-left .auction-card-title {
+        font-size: 1.2em;
+    }
+
+    .auction-item .auction-card-body {
+        border-radius: 25px;
+    }
+
+    .auction-item .auction-card-body .btn-sm {
+        max-width: 90px;
+        min-height: 40px;
+        font-size: 0.8em;
+    }
+
+    .auction-carousel .owl-item .card-likes-badge {
+        left: 15px;
+        top: 15px;
+    }
+
+    .auction-carousel.owl-carousel.owl-drag .owl-item {
+        width: 230px !important;
+    }
+
+    .auction-card-footer-left {
+        width: 78%;
+        padding-right: 10px;
+    }
+
+    .auction-card-footer-right {
+        width: 20%;
+        padding-left: 10px;
+    }
+
+    .auction-item .card-timer {
+        display: none;
+    }
+
+    .auction-card-caption a {
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .active+.active .auction-item .card-likes-badge {
+        transform: translateX(-200px);
+        transition: .5s all
+    }
+
+    .active .auction-item .card-likes-badge {
+        transform: translateX(0)
+    }
+
+
+    .active+.active .auction-item .auction-card-body img {
+        filter: grayscale(100%)
+    }
+
+    .active .auction-item .auction-card-body img {
+        filter: grayscale(0)
+    }
+
+
+    .active+.active .auction-item .place-bid {
+        transform: translateX(200px);
+        transition: .5s all
+    }
+
+    .active .auction-item .place-bid {
+        transform: translateX(0)
+    }
+
+    .active+.active .auction-item .auction-card-footer {
+        transform: translateY(100%);
+        transition: .5s all;
+    }
+
+
+    .active .auction-item .auction-card-footer {
+        transform: translateY(0%);
+        font-size: 15px;
+    }
+
+
+    /* auction section ends */
+
+
+
+    /*creator section starts*/
+    .awesome-creators {
+        margin: 0;
+        position: relative;
+    }
+
+
+    .creators-top {
+        margin-bottom: 15px;
+    }
+
+    .creators-grid {
+        padding-left: 24px;
+    }
+
+    .awesome-creators .section-subtitle {
+        margin-bottom: 15px;
+    }
+
+    .awesome-creator {
+        width: 100%;
+    }
+
+    .awesome-creators .btn-container {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .creator-name {
+        margin-top: 12px;
+        margin-bottom: 0;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+
+    /*team section starts*/
+    .team-section {
+        margin-top: 90px;
+    }
+
+    .team-member {
+        display: block;
+        position: relative;
+        max-height: 165px;
+        padding-bottom: 35px;
+    }
+
+    .team-member-list {
+        margin-top: 0;
+    }
+
+    .team-member h5 {
+        text-align: left;
+        font-size: 1.40em;
+        margin-bottom: 0;
+    }
+
+    .team-member-list li {
+        padding-top: 30px
+    }
+
+    .team-member-content {
+        width: 100%;
+        padding-right: 50px;
+    }
+
+    .team-member .team-member-content h6 {
+        font-size: 1.1em;
+        font-weight: 300;
+    }
+
+    .team-member .team-member-content p {
+        margin: 0;
+        -webkit-line-clamp: 3;
+    }
+
+    .team-member-img {
+        width: 100%;
+    }
+
+    .active .creator-img-wrapper img {
+        filter: grayscale(0);
+    }
+
+    .active+.active .creator-img-wrapper img {
+        filter: grayscale(100%);
+    }
+
+
+    /*team section ends*/
+    /*faq section starts*/
+
+
+    .faq-section {
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+
+    .faq-section .section-subtitle {
+        font-size: 0.85em;
+    }
+
+    .faq-tab-links {
+        margin-left: -24px;
+        margin-right: -24px;
+        padding-left: 24px;
+        padding-right: 0;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .faq-tab-links li {
+        font-size: 1.1em;
+    }
+
+    .faq-tab-links li.active {
+        padding-bottom: 2px;
+    }
+
+    .faq-tab-content {
+        padding-top: 10px;
+    }
+
+    .faq-content {
+        margin-top: 30px;
+    }
+
+    .faq-list .faq-question {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+        line-height: 25px;
+    }
+
+    .faq-list .faq-answer {
+        font-size: 0.81em;
+        line-height: 22px;
+    }
+
+    .faq {
+        padding-right: 0px;
+    }
+
+    .faq-content ul {
+        list-style: none;
+    }
+
+    .faq-list {
+        padding-right: 0;
+    }
+
+    #join-community-1 {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    /*faq section ends*/
+    /*email update section starts*/
+    .email-upadte {
+        padding-top: 25px;
+    }
+
+    .email-upadte>div>* {
+        text-align: center;
+    }
+
+    .input-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border: none;
+    }
+
+    .input-container input {
+        max-width: 290px;
+    }
+
+    /*email update section ends*/
+
+
+
+    /*footer section starts*/
+    .footer-cont {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+
+
+    .footer-links {
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 20px;
+    }
+
+    .footer-links h5 {
+        font-size: 1.4em;
+        margin-bottom: 25px;
+    }
+
+
+
+    .footer-links ul {
+        display: none;
+    }
+
+    .footer-links ul li {
+        margin-bottom: 20px
+    }
+
+    .footer-links ul li a {
+        font-size: 0.85em;
+        color: #7c7e83;
+    }
+
+    .footer-cont .content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer-bottom .footer-social {
+        text-align: center;
+        margin: 0;
+        margin-top: 35px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer-bottom .brand-logo {
+        display: none;
+    }
+
+    .footer-bottom .footer-info {
+        display: none;
+
+    }
+
+    .footer-bottom .copyright-para {
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+
+
+    /*footer section ends*/
+
+    /*about section*/
+    .page-banner {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .page-banner .page-heading {
+        padding-bottom: 0;
+    }
+
+    .about-nft {
+        padding-bottom: 60%;
+        margin-bottom: 75%;
+    }
+
+    .about-nft .banner-carousel-wrapper {
+        margin-top: 20px;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .about-why {
+        margin-bottom: 0;
+    }
+
+    .about-features {
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .about-team-section .team-member-list {
+        grid-template-columns: 1fr;
+    }
+
+    .about-faq-section .faq-cont .faq-accordian {
+        margin-top: 50px;
+    }
+
+
+
+
+
+    /*blog-section*/
+
+    .blog-heading h2 {
+        text-align: left;
+    }
+
+    .blog-heading .section-title br {
+        display: none;
+    }
+
+    .blog-content {
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .blog-pages {
+        padding-bottom: 35px;
+    }
+
+    .blog-comment-img img {
+        width: 100px;
+    }
+
+    .comment-para {
+        padding-left: 10px;
+        font-size: 0.75em;
+    }
+
+    .comment-para p {
+        margin-bottom: 5px;
+
+    }
+
+    .search-section .input-container input {
+        max-width: 100%;
+    }
+
+    .post-comments .input-container input {
+        max-width: 100%;
+    }
+
+    /*contact section*/
+    .contact-section p {
+        margin-bottom: 36px;
+    }
+
+    .contact-section .input-container input,
+    .contact-section .input-container textarea {
+        min-height: 54px;
+        max-width: 100%;
+    }
+
+    .contact-section .form-container .btn {
+        margin-top: 36px;
+        max-width: 100%;
+    }
+
+    .contact-info-item {
+        margin-bottom: 48px;
+    }
+
+    .privacy-section {
+        padding: 80px 0px 0px 0px;
+    }
+
+    /*modal-section*/
+    .modal-header .modal-title {
+        font-size: 2.0em;
+    }
+
+    modal.show .modal-dialog {
+        margin: 1em;
+
+
+    }
+
+
+    .modal-header {
+        padding: 40px 40px 0;
+    }
+
+    .modal-body {
+        padding: 0 40px 40px;
+    }
+
+    .modal .form-container .btn {
+        margin-top: 30px;
+    }
+
+    .modal .input-container {
+        margin-bottom: 24px;
+    }
+
+    .another-way {
+        margin-top: 30px;
+        margin-bottom: 24px;
+    }
+
+
+    .wallet-box {
+        padding: 18px 18px 9px;
+        gap: 9px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 497px) {
+    body {
+        font-size: 18px
+    }
+
+}
